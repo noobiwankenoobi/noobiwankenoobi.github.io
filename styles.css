@@ -410,7 +410,17 @@ footer {
         padding: 10px;
         margin: 2vh;
         text-align: center;
-        width: 80%;
+        width: 100%;
+    }
+
+    .curio-hours-div h3 {
+        /* font-size: 16px; */
+        text-align: center;
+    }
+
+    .curio-hours-div p {
+        /* font-size: 16px; */
+        text-align: center;
     }
 
     .address-div {
@@ -475,6 +485,8 @@ footer {
     
     .announcement-div p {
         margin: 32px;
+        font-size: 14px;
+        width: 80vw;
     }
     
     .gift-card-link-div {
