@@ -493,6 +493,7 @@ footer {
     .gift-card-link-div h2 {
         color: white;
         text-align: center;
+        font-size: 18px;
     }
 
     .hours-content-wrapper iframe {
@@ -517,6 +518,7 @@ footer {
         display: inline-block;
         text-decoration: none;
         margin: 20px;
+        text-align: center;
     }
 
     
