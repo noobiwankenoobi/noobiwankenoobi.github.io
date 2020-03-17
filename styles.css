@@ -1,0 +1,525 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Font Sizing Begins */
+h1 {
+    font-size: 70px;
+    color: #464654;
+    background-color: transparent;
+    font-weight: normal;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    color: #464654;
+    font-weight: normal;
+    background-color: transparent;
+}
+
+h3 {
+    font-size: 20px;
+    color: #464654;
+    font-weight: normal;
+    background-color: transparent;
+    /* font-weight: normal; */
+}
+
+span {
+    font-size: 18px;
+    color: #464654;
+}
+
+p {
+    font-size: 18px;
+    color: #464654;
+    text-align: left;
+}
+/* Font Sizing Ends */
+
+
+
+/* Header and Nav Begins */
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 20%;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 15vh;
+    z-index: 2;
+    /* font-size: 12px; */
+}
+
+li, a {
+    font-weight: 400;
+    font-size: 16px;
+    color: #464654;
+    text-decoration: none;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+    height: 80px;
+    width: 80px;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    color: grey;
+}
+/* Header and Nav Ends */
+
+/* .burger-button-div {
+    display: none;
+} */
+
+
+
+/* Section Dividers Begins */
+.section-divider {
+    height: 10vh;
+}
+
+hr {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px solid black;
+    margin: 5vh auto;
+}
+/* Section Dividers End */
+
+
+
+/* Landing Image Begins */
+.section-image-wrapper {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    margin: auto;
+    margin-bottom: 10vh;
+}
+
+.landing-image-wrapper {
+    margin-bottom: 0vh;
+}
+
+.section-image {
+    /* height: 100vh; */
+    margin: auto;
+    width: 100%;
+    object-fit: contain;
+}
+
+.section-text-box {
+    position: absolute;
+    background-color: transparent;
+}
+
+.section-text-box h1 {
+    color: #f8f8ff;
+    text-shadow:0.5px 0.5px 10px #464654;
+    text-decoration: none;
+    font-weight: normal;
+}
+/* Landing Image Ends */
+
+
+
+
+/* Section Styling Begins */
+.main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-page-image {
+    max-width: 60%;
+    height: auto;
+    margin: 0px;
+    /* margin-top: 15vh; */
+}
+
+.home-section {
+    margin-top: 15vh;
+}
+
+.info-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5vh 0;
+    max-width: 60vw;
+    text-align: center;
+}
+
+.main-section h1 {
+    margin: 5vh;
+}
+
+.callout-text {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.intro-text {
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    width: 60vw;
+    text-align: center;
+
+}
+
+/* Announcement */
+/* Announcement */
+/* Announcement */
+/* Announcement */
+
+.construction {
+    width: 60vw;
+    height: 10vh;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.announcement-div {
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vh;
+    margin: auto;
+    border: 1px solid #464654;
+    padding: 16px;
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+
+.announcement-div h3 {
+    margin: 32px;
+}
+
+.announcement-div h2 {
+    margin-top: 5vh;
+}
+
+.announcement-div p {
+    margin: 32px;
+}
+
+.gift-card-link-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15vw;
+    height: 15vw;
+    margin: 2vw;
+    border: 1px solid #464654;
+    padding: 10px;
+    object-fit: cover;
+    background-color: #464654;
+    text-align: center;
+}
+
+.gift-card-link-div h2 {
+    color: white;
+}
+
+
+/* Coffee Logo Links Start */
+
+
+
+
+/* Hours Section Beings */
+.hours-section {
+    margin-bottom: 10vh;
+}
+
+.hours-content-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 5vh;
+}
+
+.curio-hours-div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 2vh;
+    text-align: center;
+    width: 30%;
+}
+
+.address-div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 2vh;
+    text-align: center;
+    width: 30%;
+}
+
+.hours-info-text {
+    text-align: center;
+}
+/* Hours Section Ends */
+
+
+
+
+
+/* Social Media Icons Div Begins */
+
+.social-media-icons-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-media-icons-div p {
+    text-align: justify;
+    width: 50%;
+    padding: 5vh;
+}
+
+.social-media-icons-div li {
+    display: inline-block;
+    text-decoration: none;
+    margin: 20px;
+}
+/* Social Media Icons Div Ends */
+
+
+/* Footer Begins */
+footer {
+    height: 15vh;
+    bottom: 0;
+}
+/* Footer Ends */
+
+
+
+/* Nav Intermediate Screen Size Begins */
+
+  @media screen and (max-width: 1130px) {
+    .nav-links li {
+        padding: 0px 20px;
+    }
+  }
+
+/* Nav Intermediate Screen Size Ends */
+
+
+
+/* Mobile Section Begins */
+
+  @media screen and (max-width: 768px){
+
+    /* Mobile Header Begins */
+    header {
+        display: flex;
+        justify-content: flex-end;
+        padding: 20px 10vw;
+        height: 20vh;
+        width: 100vw;
+    }
+
+    .logo {
+        margin-right: auto;
+    }
+
+
+    
+    /* Mobile Header Ends */
+
+
+    .main-section {
+        width: 100vw;
+    }
+
+    .section-image-wrapper {
+        width: 100vw;
+    }
+
+
+    .intro-text {
+        width: 80vw;
+    }
+
+    .info-text {
+        max-width: 80vw;
+    }
+
+    .coffee-program-logo-div {
+        width: 25vw;
+        height: 25vw;
+        background-color: whitesmoke;
+    }
+
+    .coffee-program-logo-div img {
+        max-width: 20vw;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .curio-hours-div {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        margin: 2vh;
+        text-align: center;
+        width: 80%;
+    }
+
+    .address-div {
+        width: 80%;
+    }
+
+    h3 {
+        max-width: 80vw;
+    }
+
+    .social-media-icons-div p {
+        width: 100vw;
+        text-align: left;
+    }
+
+    /* NEW STUFF */
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    .construction {
+        width: 100vw;
+        height: 10vh;
+        background-color: yellow;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .currently-under-construction {
+        font-size: 18px;
+    }
+    
+    .announcement-div {
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5vh;
+        margin: auto;
+        border: 1px solid #464654;
+        padding: 16px;
+        margin-bottom: 32px;
+        margin-top: 32px;
+    }
+    
+    .announcement-div h3 {
+        margin: 32px;
+    
+    }
+    
+    .announcement-div p {
+        margin: 32px;
+    }
+    
+    .gift-card-link-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40vw;
+        height: 40vw;
+        margin: 2vw;
+        border: 1px solid #464654;
+        padding: 10px;
+        object-fit: cover;
+        background-color: #464654;
+    }
+    
+    .gift-card-link-div h2 {
+        color: white;
+        text-align: center;
+    }
+
+    .hours-content-wrapper iframe {
+        width: 80vw;
+        height: 30vh;
+    }
+
+    .social-media-icons-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+    }
+    
+    .social-media-icons-div p {
+        text-align: justify;
+        width: 90%;
+        padding: 5vh;
+    }
+    
+    .social-media-icons-div li {
+        display: inline-block;
+        text-decoration: none;
+        margin: 20px;
+    }
+
+    
+
+}
+/* Mobile Section Ends */
