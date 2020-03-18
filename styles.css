@@ -206,7 +206,7 @@ hr {
 .construction {
     width: 60vw;
     height: 10vh;
-    background-color: yellow;
+    background-color: #FFE787;
     display: flex;
     justify-content: center;
     align-items: center;
