@@ -225,6 +225,7 @@ hr {
     padding: 16px;
     margin-bottom: 32px;
     margin-top: 32px;
+    text-align: center;
 }
 
 .announcement-div h3 {
@@ -256,6 +257,11 @@ hr {
 
 .gift-card-link-div h2 {
     color: white;
+}
+
+.ordering-links-div {
+    display: flex;
+    flex-direction: row;
 }
 
 
