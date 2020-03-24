@@ -378,7 +378,9 @@ footer {
 
     
     /* Mobile Header Ends */
-
+    .home-section {
+        margin-top: 20vh;
+    }
 
     .main-section {
         width: 100vw;
